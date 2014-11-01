@@ -1,0 +1,23 @@
+scheme@(guile-user)> (search-for-primes 1000 1010)
+1001
+1003
+1005
+1007
+1009
+ *** #<time type: time-duration nanosecond: 27000 second: 0>
+scheme@(guile-user)> (search-for-primes 10000 10010)
+10001
+10003
+10005
+10007
+ *** #<time type: time-duration nanosecond: 78000 second: 0>
+10009
+ *** #<time type: time-duration nanosecond: 78000 second: 0>
+scheme@(guile-user)> (search-for-primes 100000 100010)
+100001
+100003
+ *** #<time type: time-duration nanosecond: 237000 second: 0>
+100005
+100007
+100009
+scheme@(guile-user)> 
