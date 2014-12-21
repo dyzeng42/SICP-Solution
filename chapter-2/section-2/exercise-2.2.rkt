@@ -1,3 +1,5 @@
+#lang planet neil/sicp
+
 (define (make-seg start end)
   (cons start end))
 
